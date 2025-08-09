@@ -114,8 +114,8 @@ RUN install_clean tzdata && \
 ARG VERSION
 ARG BUILD_DATE
 # set metadata
-LABEL org.opencontainers.image.source=https://github.com/automatic-ripping-machine/arm-dependencies.git
-LABEL org.opencontainers.image.url=https://github.com/automatic-ripping-machine/arm-dependencies
+LABEL org.opencontainers.image.source=https://github.com/Darkwiiyou/arm-dependencies.git
+LABEL org.opencontainers.image.url=https://github.com/Darkwiiyou/arm-dependencies
 LABEL org.opencontainers.image.description="Dependencies for Automatic Ripping Machine"
 LABEL org.opencontainers.image.documentation=https://raw.githubusercontent.com/automatic-ripping-machine/arm-dependencies/main/README.md
 LABEL org.opencontainers.image.license=MIT
