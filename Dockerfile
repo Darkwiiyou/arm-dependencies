@@ -72,6 +72,7 @@ RUN install_clean \
 
 # libfaketime to optionally spoof time for MakeMKV via env flag
 RUN install_clean libfaketime
+RUN install_clean faketime
 
 # install libdvd-pkg
 RUN \
