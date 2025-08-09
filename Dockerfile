@@ -70,6 +70,9 @@ RUN install_clean \
         opus-tools \
         fdkaac
 
+# libfaketime to optionally spoof time for MakeMKV via env flag
+RUN install_clean libfaketime
+
 # install libdvd-pkg
 RUN \
     install_clean libdvd-pkg && \
